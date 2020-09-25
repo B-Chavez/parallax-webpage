@@ -1,0 +1,37 @@
+body, html {
+    height: 100%;
+  }
+  
+  .parallax {
+    /* The image used */
+    background-image: url(./unsplash1.jpg);
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax2{
+      background-image: url(./unsplash2.jpg);
+
+      height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .onTop{
+      height: 1000px;
+      background-color: palegreen;
+      font-size: 36px;
+      background-image: url(./unsplash3.jpg);
+      background-position: center;
+  }
